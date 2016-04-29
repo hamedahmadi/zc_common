@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='zc_common',
-      version='0.0.3',
+      version='0.0.2',
       description="A collection of Python utils",
       long_description='',
       keywords='zerocater python util',
@@ -12,7 +12,6 @@ setup(name='zc_common',
       license='MIT',
       packages=[
           'zc_common',
-          'remote_resource',
       ],
       install_requires=[
           'django',
