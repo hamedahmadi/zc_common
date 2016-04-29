@@ -5,7 +5,7 @@ import six
 from rest_framework.relations import *
 from rest_framework_json_api.relations import ResourceRelatedField
 
-from remote_resource.models import *
+from zc_common.remote_resource.models import *
 
 
 class RemoteResourceField(ResourceRelatedField):
